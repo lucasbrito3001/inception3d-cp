@@ -13,7 +13,7 @@
 <body>
     
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <a href="index.html" class="navbar-brand"><img src="brand.png" alt="logo">INCEPTION 3D</a>
             <button onclick="overflow()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
                 <span class="navbar-toggler-icon"></span>
@@ -25,36 +25,28 @@
                         <a href="#carouselExampleIndicators" class="nav-link">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active m-auto">
-                        <a href="#quem-somos" class="nav-link">Quem Somos</a>
+                        <a href="#quem-somos" class="nav-link" id="qs">Quem Somos</a>
                     </li>
                     <li class="nav-item active dropdown m-auto">
-                        <a href="#" class="nav-link dropdown-toggle" id="dropdownServicos" data-toggle="dropdown">Serviços</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownServicos">
-                            <a href="#p&d" class="dropdown-item">Pesquisa e Desenvolvimento</a>
-                            <a href="#ensino" class="dropdown-item">Ensino</a>
-                            <a href="#comercial" class="dropdown-item">Comercial</a>
-                        </div>
+                        <a href="#servicos" class="nav-link" id="dropdownServicos">Serviços</a>
                     </li>
                     <li class="nav-item active dropdown m-auto">
-                        <a href="#" class="nav-link dropdown-toggle" id="dropdownMateriais" data-toggle="dropdown">Materiais</a>
+                        <a href="#" class="nav-link dropdown-toggle btn" id="dropdownMateriais" data-toggle="dropdown">Materiais</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMateriais">
-                            <a href="#materiais" class="dropdown-item">Apostila</a>
-                            <a href="#materiais" class="dropdown-item">Vídeo-Aulas</a>
-                            <a href="#informacoes" class="dropdown-item">Notícias</a>
+                            <a href="#materiais" class="dropdown-item" id="apst">Apostila</a>
+                            <a href="#materiais" class="dropdown-item" id="ytb">Vídeo-Aulas</a>
+                            <a href="#informacoes" class="dropdown-item" id="news">Notícias</a>
                         </div>
                     </li>
                     
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active dropdown m-auto">
-                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">Contatos</a>
+                        <a href="#" class="nav-link dropdown-toggle btn" id="navbarDropdown" data-toggle="dropdown">Contatos</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a href="#" class="dropdown-item">Facebook <i class="bi bi-facebook"></i></a>
-                            <a href="#" class="dropdown-item">Instagram <i class="bi bi-instagram"></i></a>
-                            <a class="dropdown-item" href="#">LinkedIn <i class="bi bi-linkedin"></i></a>
-                            <div class="dropdown-divider"></div>
-                            <a href="#" class="dropdown-item">WhatsApp <i class="bi bi-whatsapp"></i></a>
-                            <a href="#" class="dropdown-item">Telegram <i class="bi bi-telegram"></i></a>
+                            <a href="https://www.facebook.com/inception3D.utf" target="blank" class="dropdown-item">Facebook <i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/inception.3d/" class="dropdown-item" target="blank">Instagram <i class="bi bi-instagram"></i></a>
+                            <a class="dropdown-item" href="https://www.linkedin.com/company/inception-3d/" target="blank">LinkedIn <i class="bi bi-linkedin"></i></a>
                         </div>
                     </li>
                 </ul>
@@ -94,8 +86,10 @@
 
     <div class="container">
         <div class="row">
-            <h2 id="quem-somos" class="titulos col-12">Quem Somos</h2>
-            <p class="col-12">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae? Officia atque quaerat impedit aliquam vel libero eligendi voluptatem, accusamus totam cupiditate sequi provident sunt a tempore? Unde, impedit deleniti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores nihil perspiciatis assumenda ea debitis eveniet veniam earum recusandae, iure est doloribus omnis illum quibusdam sint temporibus rem ad qui reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos incidunt hic quod repudiandae odit dignissimos? Nulla perspiciatis explicabo, vero, illum officia voluptates animi adipisci suscipit voluptatem minus nobis, quam mollitia? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia veritatis ducimus doloremque ullam voluptate nesciunt itaque quas pariatur sint asperiores beatae, soluta tenetur quibusdam, facere repudiandae eveniet libero dolore minima? Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio error esse, natus officia nam, eos nemo iusto facere reprehenderit voluptatum, inventore atque quisquam molestiae delectus! Adipisci accusantium quo a fuga? <a href="#" style="color:red;">[...]</a></p>
+            <div id="quem-somos">
+                <h2 class="titulos col-12">Quem Somos</h2>
+                <p class="col-12">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae? Officia atque quaerat impedit aliquam vel libero eligendi voluptatem, accusamus totam cupiditate sequi provident sunt a tempore? Unde, impedit deleniti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores nihil perspiciatis assumenda ea debitis eveniet veniam earum recusandae, iure est doloribus omnis illum quibusdam sint temporibus rem ad qui reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos incidunt hic quod repudiandae odit dignissimos? Nulla perspiciatis explicabo, vero, illum officia voluptates animi adipisci suscipit voluptatem minus nobis, quam mollitia? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia veritatis ducimus doloremque ullam voluptate nesciunt itaque quas pariatur sint asperiores beatae, soluta tenetur quibusdam, facere repudiandae eveniet libero dolore minima? Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio error esse, natus officia nam, eos nemo iusto facere reprehenderit voluptatum, inventore atque quisquam molestiae delectus! Adipisci accusantium quo a fuga? <a href="#" style="color:red;">[...]</a></p>
+            </div>
         </div>
 
         <!-- ========================================================================================================================================================== -->
@@ -125,38 +119,54 @@
 
         <!-- ========================================================================================================================================================== -->
 
-        <div class="row">
-            <h2 class="titulos col-12">Núcleos e Serviços do Projeto</h2>
+        <div class="row" id="servicos">
+            <h2 class="titulos col-12" style="background-color: transparent;">Núcleos e Serviços</h2>
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                <h3 id="p&d">Pesquisa e Desenvolvimento</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae? Officia atque quaerat impedit aliquam vel libero eligendi voluptatem, accusamus totam cupiditate sequi provident sunt a tempore? Unde, impedit deleniti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores nihil perspiciatis assumenda ea debitis eveniet veniam earum recusandae, iure est doloribus omnis illum quibusdam sint temporibus rem ad qui reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos incidunt hic quod repudiandae odit dignissimos? Nulla perspiciatis explicabo, vero, illum officia voluptates animi adipisci suscipit voluptatem minus nobis, quam mollitia?</p>
+                <button class="dropdown-toggle btn btn-dark" type="button" data-toggle="collapse" data-target="#pedTexto" style="width: 100%; margin-bottom: 20px;">Pesquisa e Desenvolvimento</button>
+                <p class="collapse" id="pedTexto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod reiciendis sed recusandae sit mollitia saepe obcaecati officia corporis quos incidunt nemo enim dicta iusto omnis in unde adipisci, dolor itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aspernatur possimus quam voluptas magni laborum eveniet tenetur dignissimos dolorum quaerat culpa qui, quidem at modi incidunt repellendus molestiae architecto assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugiat non pariatur sit blanditiis eum soluta dolores nulla at voluptatum, iure impedit mollitia voluptate eos dicta maiores ipsa neque sint. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, laboriosam fugiat. Facilis vel laboriosam eveniet sint fuga. Nemo, eaque unde? Possimus hic dolor aliquam expedita cupiditate accusamus, odio commodi consectetur.</p>
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                <h3 id="ensino">Ensino</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae? Officia atque quaerat impedit aliquam vel libero eligendi voluptatem, accusamus totam cupiditate sequi provident sunt a tempore? Unde, impedit deleniti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores nihil perspiciatis assumenda ea debitis eveniet veniam earum recusandae, iure est doloribus omnis illum quibusdam sint temporibus rem ad qui reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos incidunt hic quod repudiandae odit dignissimos? Nulla perspiciatis explicabo, vero, illum officia voluptates animi adipisci suscipit voluptatem minus nobis, quam mollitia?</p>
+                <button class="dropdown-toggle btn btn-dark" type="button" data-toggle="collapse" data-target="#ensinoTexto" style="width: 100%; margin-bottom: 20px;">Ensino</button>
+                <p class="collapse" id="ensinoTexto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nulla corrupti dicta, perspiciatis ipsam fuga reiciendis ratione laboriosam quis officia fugiat facere nesciunt dolorem tempora? Deserunt autem deleniti voluptate esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio consectetur quam, adipisci vitae fugit ipsa molestias aliquid debitis harum ullam, nemo officiis consequatur a. Et architecto nobis maiores debitis ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla recusandae optio possimus labore fugiat reprehenderit cumque laborum praesentium ipsam neque autem illo totam quasi, nihil minus ab? Quae, ipsam natus.</p>
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                <h3 id="comercial">Comercial</h3>
-                <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae? Officia atque quaerat impedit aliquam vel libero eligendi voluptatem, accusamus totam cupiditate sequi provident sunt a tempore? Unde, impedit deleniti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores nihil perspiciatis assumenda ea debitis eveniet veniam earum recusandae, iure est doloribus omnis illum quibusdam sint temporibus rem ad qui reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos incidunt hic quod repudiandae odit dignissimos? Nulla perspiciatis explicabo, vero, illum officia voluptates animi adipisci suscipit voluptatem minus nobis, quam mollitia?</p>
+                <button class="dropdown-toggle btn btn-dark" type="button" data-toggle="collapse" data-target="#comercialTexto" style="width: 100%; margin-bottom: 20px;">Comercial</button>
+                <p class="collapse" id="comercialTexto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ratione explicabo, nesciunt nulla saepe illum sed adipisci impedit corrupti porro, facilis laudantium mollitia aliquam esse magnam inventore autem amet ex. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem ea natus suscipit nobis illo quaerat esse placeat laborum nostrum. Vero nisi, eum rerum magni ea nesciunt molestias tenetur adipisci placeat.</p>
             </div>
         </div>
 
         <!-- ========================================================================================================================================================== -->
 
         <div class="row">
-            <h2 id="materiais" class="titulos col-12">Materiais Didáticos</h2>
-            <div class="apostila col-12 col-sm-12 col-md-7 col-lg-8 col-xl-8">
+            <div id="materiais" class="col-12">
+                <h2 class="titulos">Materiais Didáticos</h2>
+            </div>
+            <div class="apostila col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <h3 class="titulos">Apostila</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae minima quia modi ut suscipit eum, veritatis temporibus repellendus, est eligendi. Sequi quidem necessitatibus placeat consequuntur recusandae in nisi nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam atque hic itaque, tenetur inventore architecto tempore recusandae consectetur porro placeat debitis, suscipit at sapiente voluptatibus repellendus tempora. Eius, deleniti pariatur? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus aut eveniet labore unde facilis atque, voluptatem qui earum asperiores illum architecto rem dignissimos. Pariatur deserunt consequuntur adipisci iste, eligendi laborum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, incidunt molestias? Sint debitis, earum ullam at illum fugit maiores quaerat quasi suscipit vero, cum eaque nam? Doloribus culpa tempore exercitationem.</p>
-                <h5>Aqui está o<a href="https://drive.google.com/file/d/1VpX2N-zTvHcuhXDby2eu9FBaJoB1vPpo/view?usp=sharing" target="blank"> <em>link da apostila!</em></a></h5>
+                <a id="link-apostila" href="https://drive.google.com/file/d/1VpX2N-zTvHcuhXDby2eu9FBaJoB1vPpo/view?usp=sharing" target="blank">Aqui está o <em>link da apostila!</em></a></a>
             </div>
-            <div class="youtube col-12 col-sm-12 col-md-5 col-lg-4 col-xl-4">
+            <div class="youtube col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <h3 class="titulos">Youtube</h3>
-                <a href="https://www.youtube.com/channel/UCEEw8DX1zWGvHT8X1znmHSg" target="blank"><img src="youtube.png" alt="logo-youtube"></a>
-                <h3 style="text-align: center;">Canal do Youtube: Inception 3D</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="https://www.youtube.com/channel/UCEEw8DX1zWGvHT8X1znmHSg" target="blank"><img class="card-img-top" id="ytb-img" src="youtube.png" alt="logo-youtube"></a>
+                        <h3 style="text-align: center;">Canal do Youtube: Inception 3D</h3>
+                        <button class="dropdown-toggle btn btn-dark" type="button" data-toggle="collapse" data-target="#pedTexto" style="width: 100%; margin-bottom: 20px;">Playlist</button>
+                        <ol class="collapse" id="pedTexto">
+                            <li><button onclick="mudarIframe(1)" class="btn btn-secondary">Aula 1 - A Tecnologia FFF</button></li>
+                            <li><button onclick="mudarIframe(2)" class="btn btn-secondary">Aula 2 - Estruturas</button></li>
+                            <li><button onclick="mudarIframe(3)" class="btn btn-secondary">Aula 3 - Aula tal tal tal</button></li>
+                            <li><button onclick="mudarIframe(4)" class="btn btn-secondary">Aula 4 - Aula tal tal tal</button></li>
+                    </div>
+                    </ol>
+                </div>
+                <iframe id="video-aula" src="https://www.youtube.com/embed/O2b4Xs-zJHc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <h3 id="informacoes" class="titulos2 col-12">Informações</h3>
-            <div class="noticias col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <div id="informacoes" class="col-12">
+                <h2 class="titulos">Informações</h2>
+            </div>
+            <div class="noticias col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 w-100">
                 <h3 class="titulos">Notícia 1</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, repudiandae cupiditate vel, atque eum facere ipsum odit, perferendis excepturi voluptates exercitationem amet? Dicta nobis omnis repellendus sapiente ex eos quidem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum itaque vitae voluptate nesciunt accusamus voluptatem sint soluta laboriosam atque. Impedit dolore enim vel. Culpa dicta esse facere, expedita magni autem. lor</p>
             </div>
@@ -183,14 +193,8 @@
         </div>
     </div>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <span class="col-4">Dev: Lucas de Brito</span>
-                <span class="col-4">Agradecemos a visita!</span>
-                <span class="col-4">&copy;INCEPTION 3D</span>
-            </div>
-        </div>
+    <footer class="container-fluid">
+
     </footer>
 
 <style>

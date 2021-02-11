@@ -1,27 +1,14 @@
 let cont = 0
-let prevScrollpos = window.pageYOffset;
 
-window.addEventListener('scroll',() => {
-    const barra = document.querySelector('header')
-    let currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-        barra.style.top = "0";
-        barra.style.transition = '.4s'
-    } else {
-        barra.style.top = "-10vh";
-    }
-    prevScrollpos = currentScrollPos;
-})
-
-function overflow(){
-    if(cont == 0){
-        document.body.style.overflow = 'hidden'
-        cont++
-    } else{
-        document.body.style.overflow = 'visible'
-        cont = 0
-    }
-}
+// function overflow(){
+//     if(cont == 0){
+//         document.body.style.overflow = 'hidden'
+//         cont++
+//     } else{
+//         document.body.style.overflow = 'visible'
+//         cont = 0
+//     }
+// }
 
 function mudarAdm(pessoa){
     const adm = document.querySelector('#pessoa')
@@ -83,6 +70,27 @@ function mudarAdm(pessoa){
             imgAdm.src = 'alexandre.jpg'
             break 
             
+    }
+}
+
+function mudarIframe(video){
+    const aula = document.querySelector('#video-aula')
+    switch(video){
+        case 1:
+            aula.src = "https://www.youtube.com/embed/O2b4Xs-zJHc"
+            break
+
+        case 2:
+            aula.src = "https://www.youtube.com/embed/9dgyZHuTyt4"
+            break
+
+        case 3:
+            aula.src = "https://www.youtube.com/embed/8QO30RVKIBk"
+            break
+
+        case 4:
+            aula.src = "https://www.youtube.com/embed/9G7_sRHDpVE"
+            break
     }
 }
 
