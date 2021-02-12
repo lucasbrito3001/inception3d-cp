@@ -6,6 +6,25 @@ body, html{
     padding: 0px;
 }
 
+svg polygon#blue{
+    stroke-dasharray: 50 15;
+    animation: dash-horario 1.5s cubic-bezier(1, 1, 1, 1) infinite;
+    stroke: rgb(0, 174, 255);
+}
+
+svg polygon#red{
+    stroke-dasharray: 50 15;
+    animation: dash-antihorario 1.5s cubic-bezier(1, 1, 1, 1) infinite;
+    stroke: red;
+}
+
+svg text{
+    font-size: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    animation: piscar 1s infinite;
+}
+
 header{
     position: fixed;
     width: 100%;
@@ -287,4 +306,20 @@ iframe{
         font-weight: lighter;
     }
 
+}
+
+@keyframes dash-horario{
+    from{
+        stroke-dashoffset: 0;
+    }to{
+        stroke-dashoffset: 134;
+    }
+}
+
+@keyframes dash-antihorario{
+    from{
+        stroke-dashoffset: 0;
+    }to{
+        stroke-dashoffset: -134;
+    }
 }
