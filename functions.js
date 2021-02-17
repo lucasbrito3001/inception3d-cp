@@ -1,14 +1,16 @@
-let cont = 0
 
-// function overflow(){
-//     if(cont == 0){
-//         document.body.style.overflow = 'hidden'
-//         cont++
-//     } else{
-//         document.body.style.overflow = 'visible'
-//         cont = 0
-//     }
-// }
+function overflow(){
+    const menu = document.querySelector('.navbar-collapse')
+    if(screen.availWidth < 992){
+        if(menu.style.height === ''){
+            document.body.style.overflow = 'hidden'
+            menu.style.height = '95vh'
+        } else{
+            document.body.style.overflow = 'visible'
+            menu.style.height = null
+        }
+    }
+}
 
 function mudarAdm(pessoa){
     const adm = document.querySelector('#pessoa')
