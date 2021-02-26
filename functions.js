@@ -48,7 +48,7 @@ function mudarAdm(pessoa){
 
         case 'gutembergue':
             adm.innerHTML = 'Gutembergue Teles Junior'
-            cargo.innerHTML = 'Gestor de Financeiro'
+            cargo.innerHTML = 'Gestor Financeiro'
             curso.innerHTML = 'Eng. de Controle e Automação'
             depoimento.innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ab quis doloremque accusantium eos beatae necessitatibus ipsum rem deserunt. Facilis in voluptas vitae perferendis veritatis maxime repudiandae fuga blanditiis laboriosam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur voluptatem eius atque sint nesciunt maiores fugiat distinctio eveniet ipsum necessitatibus! Veritatis nulla expedita libero nobis totam ullam illo non nihil?'
             imgAdm.src = 'guto.jpg'
@@ -57,7 +57,7 @@ function mudarAdm(pessoa){
 
         case 'paulo':
             adm.innerHTML = 'Paulo Henrique Arizono'
-            cargo.innerHTML = 'Gestor de Financeiro'
+            cargo.innerHTML = 'Gestor Financeiro'
             curso.innerHTML = 'Eng. de Controle e Automação'
             depoimento.innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ab quis doloremque accusantium eos beatae necessitatibus ipsum rem deserunt. Facilis in voluptas vitae perferendis veritatis maxime repudiandae fuga blanditiis laboriosam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur voluptatem eius atque sint nesciunt maiores fugiat distinctio eveniet ipsum necessitatibus! Veritatis nulla expedita libero nobis totam ullam illo non nihil?'
             imgAdm.src = 'paulo.jpg'
@@ -66,7 +66,7 @@ function mudarAdm(pessoa){
 
         case 'alexandre':
             adm.innerHTML = 'Alexandre Crespo'
-            cargo.innerHTML = 'Gestor de Comercial'
+            cargo.innerHTML = 'Gestor Comercial'
             curso.innerHTML = 'Eng. de Controle e Automação'
             depoimento.innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ab quis doloremque accusantium eos beatae necessitatibus ipsum rem deserunt. Facilis in voluptas vitae perferendis veritatis maxime repudiandae fuga blanditiis laboriosam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur voluptatem eius atque sint nesciunt maiores fugiat distinctio eveniet ipsum necessitatibus! Veritatis nulla expedita libero nobis totam ullam illo non nihil?'
             imgAdm.src = 'alexandre.jpg'
