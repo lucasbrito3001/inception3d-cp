@@ -1,3 +1,17 @@
+let rolagemAtual = window.scrollY
+
+window.addEventListener('scroll', () => {
+    let novaRolagem = window.scrollY
+    const barra = document.querySelector('header')
+    if(novaRolagem >= rolagemAtual){
+        barra.style.transform = "translateY(-20vh)"
+        barra.style.transition = ".4s"
+    } else if(novaRolagem < rolagemAtual){
+        barra.style.transform = "translateY(0)"
+    }
+    rolagemAtual = novaRolagem
+})
+
 
 function overflow(){
     const menu = document.querySelector('.navbar-collapse')
